@@ -5,7 +5,7 @@
     version="3.0">
 	<servlet>
 		<servlet-name>LoginServlet</servlet-name>
-		<servlet-class>com.jeffdouglas.oauth.LoginServlet</servlet-class>
+		<servlet-class>org.andrewnr.oauth.LoginServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>LoginServlet</servlet-name>
@@ -13,7 +13,7 @@
 	</servlet-mapping>
     <servlet>
         <servlet-name>CallbackServlet</servlet-name>
-        <servlet-class>com.jeffdouglas.oauth.CallbackServlet</servlet-class>
+        <servlet-class>org.andrewnr.oauth.CallbackServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>CallbackServlet</servlet-name>
@@ -21,7 +21,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>HomeServlet</servlet-name>
-        <servlet-class>com.jeffdouglas.oauth.HomeServlet</servlet-class>
+        <servlet-class>org.andrewnr.oauth.HomeServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HomeServlet</servlet-name>
@@ -29,7 +29,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>AccountServlet</servlet-name>
-        <servlet-class>com.jeffdouglas.oauth.AccountServlet</servlet-class>
+        <servlet-class>org.andrewnr.oauth.AccountServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AccountServlet</servlet-name>
@@ -37,7 +37,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>ContactServlet</servlet-name>
-        <servlet-class>com.jeffdouglas.oauth.ContactServlet</servlet-class>
+        <servlet-class>org.andrewnr.oauth.ContactServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ContactServlet</servlet-name>
